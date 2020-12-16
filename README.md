@@ -7,3 +7,6 @@ My main area of interest is in unemployment data, but it would be facinating to 
 
 ### Step 1
 The first step is to scrape or pull in county data and add it to a map. The great people at the U.S. Bureau of Labor Statistics have already created a map which can be found [here](https://data.bls.gov/lausmap/showMap.jsp;jsessionid=130728D21177009D119C2F3F57220E2B._t3_07v). I can use this map to check my results.
+
+### Step 2
+For the second step I will gather election data. I have chosen the MIT Data Lab and have started with the dataset found [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ),  This data set tracks presidential election results by county (general election, not primaries).  Currently it is only updated through 2016, but hopefully it will be updated for 2020 and we can use it with minimal adjustment.
