@@ -10,3 +10,8 @@ The first step is to scrape or pull in county data and add it to a map. The grea
 
 ### Step 2
 For the second step I will gather election data. I have chosen the MIT Data Lab and have started with the dataset found [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ),  This data set tracks presidential election results by county (general election, not primaries).  Currently it is only updated through 2016, but hopefully it will be updated for 2020 and we can use it with minimal adjustment.
+
+### Step 3
+??? Maybe industry GDP by county?
+
+D3 implimentation?
