@@ -13,5 +13,6 @@ For the second step I will gather election data. I have chosen the MIT Data Lab 
 
 ### Step 3
 ??? Maybe industry GDP by county?
+??? Population by county
 
 D3 implimentation?
