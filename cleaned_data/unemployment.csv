@@ -1,4 +1,4 @@
-,LAUS Code,Period,Labor_force,Employed,Unemployed,Unemployment_rate,Preliminary,Labor_force_NA,Employed_NA,Unemployed_NA,Unemployment_rate_NA,fips
+,LAUS_Code,Period,Labor_force,Employed,Unemployed,Unemployment_rate,Preliminary,Labor_force_NA,Employed_NA,Unemployed_NA,Unemployment_rate_NA,fips
 1,CN0100100000000,Sep-19,26010.0,25391.0,619.0,2.4,False,False,False,False,False,01001
 2,CN0100300000000,Sep-19,96754.0,94510.0,2244.0,2.3,False,False,False,False,False,01003
 3,CN0100500000000,Sep-19,8656.0,8376.0,280.0,3.2,False,False,False,False,False,01005

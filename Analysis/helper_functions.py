@@ -19,8 +19,9 @@ def jsonInserter(geojson,data,columnName,fileame):
             values = data[data['fips']==ct['id']][[columnName,'Period']]
 
             # save to geojson object
-            ct['value'] = values.to_json(orient='split', index=False)
-
+            ##### SAVES AS STRING NOT OBJECT
+            ct['value'] = values.to_dict(orient='split')
+            # print(type(ct))
             # check that the length of values is the same length as the values array previous
             # this should ensure that all counties have the same number of months in their data.
             # if data is completely missing this is easily ignored on the front end so we are not worried.
@@ -46,3 +47,13 @@ def jsonInserter(geojson,data,columnName,fileame):
 # data = df_csv[['fips','Unemployment_rate','Period']]
 
 # jsonInserter(gj, data,'Unemployment_rate', 'cleaned_data/test.json')
+
+# load and save county geojson data
+# with open('cleaned_data/grouped_geojson.json') as json_file:
+    # gj = json.load(json_file)
+
+# pull in a subset of only needed columns
+# df_clean2 = df_clean[['fips','Unemployment_rate','Period']]
+
+# runs function in helper functions file that should create/update json
+# jsonInserter(gj,data,'Unemployment_rate', 'cleaned_data/unempGeo.json')
